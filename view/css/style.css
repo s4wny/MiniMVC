@@ -1,0 +1,86 @@
+/* CSS */
+
+* {
+    margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+a {
+    color: #38abe2;
+	text-decoration: none;
+}
+
+a:visted {
+    color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+	cursor: pointer;
+}
+
+a:active {
+    color: #F04D75;
+	text-decoration: none;
+}
+
+abbr,article,aside,audio,canvas,details,figcaption,figure,footer,
+header,hgroup,mark,meter,nav,output,progress,section,summary,time,video {
+    display: block;
+}
+
+html, body {
+    font-family: Verdana;
+	font-size: 12px;
+    text-align: center;
+	
+	background-color: #dbf5ff;
+	height: 100%;
+}
+
+/**/
+
+#wrapper {
+    width: 800px;
+	height: 100%;
+	min-height: 100%;
+	background-color: #FFF;
+	
+	margin: 0px auto 0px auto;
+	padding: 10px;
+	text-align: left;
+	overflow: hidden;
+}
+
+/**/
+
+hr {
+    width: 90%;
+	height: 0px;
+	border: 0px solid black;
+	border-top: 1px solid #38abe2;
+	margin: 5px 0px;
+}
+
+/* Headings */
+
+
+h1 {
+    font-size: 48px;
+	font-weight: normal;
+}
+
+h2 {
+    font-size: 28px;
+	font-weight: normal;
+	margin: 10px 0px 3px 0px;
+}
+
+
+
+
+
+
+
